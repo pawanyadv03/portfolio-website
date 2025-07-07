@@ -10,9 +10,9 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus(null); // Clear previous status
-
+// Below fetch request replace the as 'http://localhost:3001/api/contact' if you are running in local
     try {
-      const response = await fetch('http://localhost:3001/api/contact', {
+      const response = await fetch('https://portfolio-website-zjw6.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
