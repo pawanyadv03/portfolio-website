@@ -12,7 +12,7 @@ const Contact = () => {
     setStatus(null); // Clear previous status
 // Below fetch request replace the as 'http://localhost:3001/api/contact' if you are running in local
     try {
-      const response = await fetch('https://portfolio-website-zjw6.onrender.com', {
+      const response = await fetch('https://formspree.io/f/xkgbaaja', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
