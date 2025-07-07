@@ -25,3 +25,28 @@ body {
 .card:hover {
   transform: scale(1.05);
 }
+
+.logo-py {
+  font-size: 2.5rem; /* Increased size */
+  font-weight: bold;
+  color: #fff;
+  transition: transform 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle initial shadow */
+}
+
+.logo-py:hover {
+  transform: scale(1.1) rotate(5deg);
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 25px rgba(255, 255, 255, 0.6); /* Highlighted shadow on hover */
+}
+
+.blinking-line {
+  height: 3px;
+  background-color: #6c63ff; /* Primary color for the line */
+  width: 100%;
+  animation: blink 1s infinite alternate;
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
