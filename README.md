@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# portfolio-website
-=======
 # DevOps/SRE Portfolio Website
 
 This is a responsive personal portfolio website tailored for a DevOps/SRE Engineer, showcasing skills, projects, and providing a contact mechanism with a backend database for submissions.
