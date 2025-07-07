@@ -5,6 +5,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
 import Chatbot from './components/Chatbot';
 import { Fade } from "react-awesome-reveal";
 
@@ -21,6 +22,9 @@ function App() {
       </Fade>
       <Fade triggerOnce>
         <Skills />
+      </Fade>
+      <Fade triggerOnce>
+        <Certifications />
       </Fade>
       <Fade triggerOnce>
         <Contact />
