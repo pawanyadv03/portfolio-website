@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 
 const Navigation = () => {
-  const [navTitle, setNavTitle] = useState('Pawan Yadav');
+    const [, setNavTitle] = useState('Pawan Yadav');
 
   const handleNavLinkClick = (title, pageTitle) => {
     setNavTitle(title);
